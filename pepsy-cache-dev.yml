@@ -2,3 +2,4 @@ spring:
    redis: 
       host: 192.168.22.131  #redis.qfjava.cn
       port: 6379 #8400
+#     password:密码 
