@@ -4,7 +4,7 @@ spring:
       port: 6379 #8400
       password: P@ssword
 
-#  全局关闭hystrix超时：
+#  全局关闭hystrix超时。也不知道这有没用
 hystrix:
   command:
     default: 
