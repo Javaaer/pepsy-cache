@@ -3,3 +3,11 @@ spring:
       host: 192.168.22.131  #redis.qfjava.cn
       port: 6379 #8400
 #     password:密码 
+
+#  全局关闭hystrix超时。也不知道这有没用
+hystrix:
+  command:
+    default: 
+      execution:
+        timeout:
+          enabled: false
