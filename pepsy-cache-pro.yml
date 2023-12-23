@@ -1,8 +1,8 @@
-spring:
-   redis: 
-      host: 42.192.38.172 #42.192.78.13  #redis.qfjava.cn
-      port: 6379 #8400
-      password: P@ssword
+#spring:
+#   redis: 
+#      host: 42.192.38.172 #42.192.78.13  #redis.qfjava.cn
+#      port: 6379 #8400
+#      password: P@ssword
 
 #  全局关闭hystrix超时。也不知道这有没用
 hystrix:
